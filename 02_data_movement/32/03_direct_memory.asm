@@ -8,8 +8,11 @@ global _start
 
 _start:
 
-    mov eax, [num1]
+    mov eax, [num1] ;getting values stored in num1
     add eax, [num2]
+
+    ;mov eax, num1 ;getting addresses stored in num1
+    ;add eax, num2
 
     mov ebx, eax
 
